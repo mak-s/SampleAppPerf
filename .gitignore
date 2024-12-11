@@ -1,3 +1,5 @@
 */Build/*
 UserInterfaceState.xcuserstate
 PerformanceTest/PerformanceTest.xcodeproj/xcuserdata
+ConfigDEBUG.xcconfig
+ConfigRELEASE.xcconfig
