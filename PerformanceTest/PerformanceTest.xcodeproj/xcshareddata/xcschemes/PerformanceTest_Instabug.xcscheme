@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "139BCA262D09CA290056AE37"
-               BuildableName = "PerformanceTest.app"
-               BlueprintName = "PerformanceTest"
+               BlueprintIdentifier = "133ABBD62D0A20A500071D7B"
+               BuildableName = "PerformanceTest_Instabug.app"
+               BlueprintName = "PerformanceTest_Instabug"
                ReferencedContainer = "container:PerformanceTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,9 +43,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "139BCA262D09CA290056AE37"
-            BuildableName = "PerformanceTest.app"
-            BlueprintName = "PerformanceTest"
+            BlueprintIdentifier = "133ABBD62D0A20A500071D7B"
+            BuildableName = "PerformanceTest_Instabug.app"
+            BlueprintName = "PerformanceTest_Instabug"
             ReferencedContainer = "container:PerformanceTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -60,9 +60,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "139BCA262D09CA290056AE37"
-            BuildableName = "PerformanceTest.app"
-            BlueprintName = "PerformanceTest"
+            BlueprintIdentifier = "133ABBD62D0A20A500071D7B"
+            BuildableName = "PerformanceTest_Instabug.app"
+            BlueprintName = "PerformanceTest_Instabug"
             ReferencedContainer = "container:PerformanceTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
