@@ -8,11 +8,57 @@
 import UIKit
 import CoreData
 
+import DatadogWrapper
+
+extension Bundle {
+    func readInfo<T>(key: String) -> T? {
+        return self.infoDictionary?[key] as? T
+    }
+    
+    func bugsnagInfo() -> String? {
+        guard let bugsnagInfo: [String: String] = readInfo(key: "bugsnag"),
+              let apiKey = bugsnagInfo["apiKey"]
+        else {
+            return nil
+        }
+        
+        return apiKey
+
+    }
+    
+    func datadogInfo() -> (apiKey: String, appId: String)? {
+        guard let datadogInfo: [String: String] = readInfo(key: "datadog"),
+              let apiKey = datadogInfo["apiKey"],
+              let appId = datadogInfo["appId"]
+        else {
+            return nil
+        }
+        
+        return (apiKey, appId)
+    }
+    
+    func environment() -> String {
+        return readInfo(key: "environment") ?? "qa"
+    }
+}
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    func initializeDatadogSDK() {
+        if let datadogInfo = Bundle.main.datadogInfo() {
+            DatadogWrapper.activateSDK(
+                apiKey: datadogInfo.apiKey,
+                appId: datadogInfo.appId,
+                environment: Bundle.main.environment()
+            )
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//         self.initializeDatadogSDK()
+        
         return true
     }
 
