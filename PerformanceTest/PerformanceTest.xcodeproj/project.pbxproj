@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,7 +22,6 @@
 		133ABBAA2D0A208100071D7B /* PerformanceTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA332D09CA290056AE37 /* PerformanceTest.xcdatamodeld */; };
 		133ABBAB2D0A208100071D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA2C2D09CA290056AE37 /* SceneDelegate.swift */; };
 		133ABBAC2D0A208100071D7B /* ContainerYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA4C2D09CDE20056AE37 /* ContainerYViewController.swift */; };
-		133ABBAE2D0A208100071D7B /* DatadogWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 133ABB9B2D0A208100071D7B /* DatadogWrapper */; };
 		133ABBB02D0A208100071D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA382D09CA2B0056AE37 /* LaunchScreen.storyboard */; };
 		133ABBB12D0A208100071D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA362D09CA2B0056AE37 /* Assets.xcassets */; };
 		133ABBB22D0A208100071D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA302D09CA290056AE37 /* Main.storyboard */; };
@@ -41,7 +40,6 @@
 		133ABBC82D0A208C00071D7B /* PerformanceTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA332D09CA290056AE37 /* PerformanceTest.xcdatamodeld */; };
 		133ABBC92D0A208C00071D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA2C2D09CA290056AE37 /* SceneDelegate.swift */; };
 		133ABBCA2D0A208C00071D7B /* ContainerYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA4C2D09CDE20056AE37 /* ContainerYViewController.swift */; };
-		133ABBCC2D0A208C00071D7B /* DatadogWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 133ABBB92D0A208C00071D7B /* DatadogWrapper */; };
 		133ABBCE2D0A208C00071D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA382D09CA2B0056AE37 /* LaunchScreen.storyboard */; };
 		133ABBCF2D0A208C00071D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA362D09CA2B0056AE37 /* Assets.xcassets */; };
 		133ABBD02D0A208C00071D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA302D09CA290056AE37 /* Main.storyboard */; };
@@ -60,7 +58,6 @@
 		133ABBE62D0A20A500071D7B /* PerformanceTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA332D09CA290056AE37 /* PerformanceTest.xcdatamodeld */; };
 		133ABBE72D0A20A500071D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA2C2D09CA290056AE37 /* SceneDelegate.swift */; };
 		133ABBE82D0A20A500071D7B /* ContainerYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA4C2D09CDE20056AE37 /* ContainerYViewController.swift */; };
-		133ABBEA2D0A20A500071D7B /* DatadogWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 133ABBD72D0A20A500071D7B /* DatadogWrapper */; };
 		133ABBEC2D0A20A500071D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA382D09CA2B0056AE37 /* LaunchScreen.storyboard */; };
 		133ABBED2D0A20A500071D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA362D09CA2B0056AE37 /* Assets.xcassets */; };
 		133ABBEE2D0A20A500071D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139BCA302D09CA290056AE37 /* Main.storyboard */; };
@@ -82,7 +79,10 @@
 		139BCA572D09EA040056AE37 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA562D09EA040056AE37 /* Action.swift */; };
 		139BCA5D2D09EB3C0056AE37 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA5C2D09EB3C0056AE37 /* UIColor+Extension.swift */; };
 		139BCA5F2D09ED330056AE37 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139BCA5E2D09ED330056AE37 /* UIView+Extension.swift */; };
-		13A71A542D0A076E00C61321 /* DatadogWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 13A71A532D0A076E00C61321 /* DatadogWrapper */; };
+		13B791882D0CAF9800939E5C /* BugsnagWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 13B791872D0CAF9800939E5C /* BugsnagWrapper */; };
+		13B7918A2D0CAF9800939E5C /* DatadogWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 13B791892D0CAF9800939E5C /* DatadogWrapper */; };
+		13B7918C2D0CAF9800939E5C /* EmbraceWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 13B7918B2D0CAF9800939E5C /* EmbraceWrapper */; };
+		13B7918E2D0CAF9800939E5C /* InstabugWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 13B7918D2D0CAF9800939E5C /* InstabugWrapper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133ABBAE2D0A208100071D7B /* DatadogWrapper in Frameworks */,
+				13B7918A2D0CAF9800939E5C /* DatadogWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133ABBCC2D0A208C00071D7B /* DatadogWrapper in Frameworks */,
+				13B7918C2D0CAF9800939E5C /* EmbraceWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133ABBEA2D0A20A500071D7B /* DatadogWrapper in Frameworks */,
+				13B7918E2D0CAF9800939E5C /* InstabugWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A71A542D0A076E00C61321 /* DatadogWrapper in Frameworks */,
+				13B791882D0CAF9800939E5C /* BugsnagWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 			);
 			name = PerformanceTest_Datadog;
 			packageProductDependencies = (
-				133ABB9B2D0A208100071D7B /* DatadogWrapper */,
+				13B791892D0CAF9800939E5C /* DatadogWrapper */,
 			);
 			productName = PerformanceTest;
 			productReference = 133ABBB62D0A208100071D7B /* PerformanceTest_Datadog.app */;
@@ -311,7 +311,7 @@
 			);
 			name = PerformanceTest_Embrace;
 			packageProductDependencies = (
-				133ABBB92D0A208C00071D7B /* DatadogWrapper */,
+				13B7918B2D0CAF9800939E5C /* EmbraceWrapper */,
 			);
 			productName = PerformanceTest;
 			productReference = 133ABBD42D0A208C00071D7B /* PerformanceTest_Embrace.app */;
@@ -331,7 +331,7 @@
 			);
 			name = PerformanceTest_Instabug;
 			packageProductDependencies = (
-				133ABBD72D0A20A500071D7B /* DatadogWrapper */,
+				13B7918D2D0CAF9800939E5C /* InstabugWrapper */,
 			);
 			productName = PerformanceTest;
 			productReference = 133ABBF22D0A20A500071D7B /* PerformanceTest_Instabug.app */;
@@ -351,7 +351,7 @@
 			);
 			name = PerformanceTest_Bugsnag;
 			packageProductDependencies = (
-				13A71A532D0A076E00C61321 /* DatadogWrapper */,
+				13B791872D0CAF9800939E5C /* BugsnagWrapper */,
 			);
 			productName = PerformanceTest;
 			productReference = 139BCA272D09CA290056AE37 /* PerformanceTest_Bugsnag.app */;
@@ -382,7 +382,7 @@
 			);
 			mainGroup = 139BCA1E2D09CA290056AE37;
 			packageReferences = (
-				13A71A522D0A076E00C61321 /* XCRemoteSwiftPackageReference "RUMWraper" */,
+				13B791862D0CAF9800939E5C /* XCLocalSwiftPackageReference "../../RUMWrapper" */,
 			);
 			productRefGroup = 139BCA282D09CA290056AE37 /* Products */;
 			projectDirPath = "";
@@ -939,61 +939,29 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		133ABB9C2D0A208100071D7B /* XCRemoteSwiftPackageReference "RUMWraper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mak-s/RUMWraper";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		13B791862D0CAF9800939E5C /* XCLocalSwiftPackageReference "../../RUMWrapper" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../RUMWrapper;
 		};
-		133ABBBA2D0A208C00071D7B /* XCRemoteSwiftPackageReference "RUMWraper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mak-s/RUMWraper";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-		133ABBD82D0A20A500071D7B /* XCRemoteSwiftPackageReference "RUMWraper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mak-s/RUMWraper";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-		13A71A522D0A076E00C61321 /* XCRemoteSwiftPackageReference "RUMWraper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mak-s/RUMWraper";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		133ABB9B2D0A208100071D7B /* DatadogWrapper */ = {
+		13B791872D0CAF9800939E5C /* BugsnagWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 133ABB9C2D0A208100071D7B /* XCRemoteSwiftPackageReference "RUMWraper" */;
+			productName = BugsnagWrapper;
+		};
+		13B791892D0CAF9800939E5C /* DatadogWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = DatadogWrapper;
 		};
-		133ABBB92D0A208C00071D7B /* DatadogWrapper */ = {
+		13B7918B2D0CAF9800939E5C /* EmbraceWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 133ABBBA2D0A208C00071D7B /* XCRemoteSwiftPackageReference "RUMWraper" */;
-			productName = DatadogWrapper;
+			productName = EmbraceWrapper;
 		};
-		133ABBD72D0A20A500071D7B /* DatadogWrapper */ = {
+		13B7918D2D0CAF9800939E5C /* InstabugWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 133ABBD82D0A20A500071D7B /* XCRemoteSwiftPackageReference "RUMWraper" */;
-			productName = DatadogWrapper;
-		};
-		13A71A532D0A076E00C61321 /* DatadogWrapper */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 13A71A522D0A076E00C61321 /* XCRemoteSwiftPackageReference "RUMWraper" */;
-			productName = DatadogWrapper;
+			productName = InstabugWrapper;
 		};
 /* End XCSwiftPackageProductDependency section */
 

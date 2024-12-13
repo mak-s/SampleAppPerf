@@ -24,7 +24,7 @@
 	<key>datadog</key>
 	<dict>
 		<key>apiKey</key>
-		<string>$(DD_API_KEY)</string>
+		<string>$(DD_CLIENT_TOKEN)</string>
 		<key>appId</key>
 		<string>$(DD_APP_ID)</string>
 	</dict>

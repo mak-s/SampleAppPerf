@@ -56,9 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-//         self.initializeDatadogSDK()
-        
+         self.initializeDatadogSDK()
         return true
     }
 
